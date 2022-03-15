@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>
+        Employee One Week Income
+    </title>
+    
+    <style>
+        body{text-align: center;
+        background-color: aquamarine;}
+        body>div{
+            padding: 5%;
+            width: 50%;
+            margin-left: 25%;
+            background-color: white;
+            border-radius: 20%;
+        }
+        body>div>div>form>label,input{
+            margin-left: 5%;
+            display: block;
+        }
+        body>div>div>form>input{
+            margin-left: 40%;
+        }
+        #tombol{
+            width: 90%;
+            padding: 5%;
+            border-radius: 10%;
+            background-color:gray;
+            color: aliceblue;
+        }
+        #tombol:hover{
+            color: gray;
+            background-color: bisque;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div id="contener">
+        
+   
+    <h1>Pendapatan 1 Minggu Seorang Karyawan</h1>
+    <marquee behavior="" direction=""><p>By M.Hudzaifah Assyahid 11190910000108</p></marquee>
+    <h3>Standar Waktu Kerja = 40 jam perminggu. Dengan bayaran = 15.000/jam<br>uang lembur = 1 1/2 x 15.000</h3>
+    <div>
+
+    <label for="nama">Masukan Nama Karyawan : </label>
+    <input type="text" id="nama">
+    <br>
+    <label for="jamKerja"> Masukan Jumlah Jam Kerja Karyawan tersebut dalam 1 minggu ini :</label>
+    <input type="text" id="jamKerja">
+    <br>
+    <label for="pengeluaran"> Masukan Jumlah Pengeluaran Karyawan tersebut dalam 1 minggu ini :</label>
+    <input type="text" id="pengeluaran">
+    </div>  
+    <br>
+    <br>
+    <button onclick="parsing()" id="tombol"><h1 >Hitung</h1></button>
+    <h1 id="hasil">Keputusan</h1>
+
+</div>
+
+<script src="calculatorPendapatanJohn.js"></script>
+</body>
+
+</html>
